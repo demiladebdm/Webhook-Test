@@ -1,0 +1,114 @@
+[
+    {
+        "responseCode": "00",
+        "mandateCode": "00RC575/1639/0004074012",
+        "subscriberCode": "EMS/CHAMS/0934567835",
+        "phoneNumber": "08154750808",
+        "responseDescription": "Welcome to NIBSS e-mandate authentication service, a seamless and convenient authentication experience. Kindly proceed with a token payment of N50:00 into account number \"9880218357\" with Titan-Paystack Bank. This payment will trigger the authentication of your mandate. Thank You",
+        "email": "iamdemilade.f@gmail.com",
+        "timestamp": null,
+        "error": null
+    }
+]
+
+{
+    "ResponseCode": "00",
+    "SessionId": "999999240831184605816131807927",
+    "TransactionId": "000017240831184604421232614480",
+    "ChannelCode": "1",
+    "DestinationInstitutionCode": "000017",
+    "AccountNumber": "1300006459",
+    "AccountName": "CHAMSSWITCH COLLECTION ACCOUNTS",
+    "BankVerificationNumber": "",
+    "KycLevel": "1",
+    "Timestamp": null,
+    "Code": null,
+    "Message": null
+}
+
+{
+    "ResponseCode": "00",
+    "SessionId": "999999240831181307623595052395",
+    "TransactionId": "000017240831181306418926440558",
+    "ChannelCode": "1",
+    "DestinationInstitutionCode": "000004",
+    "AccountNumber": "2244974794",
+    "AccountName": "FOLARIN OLUWADEMILADE OLASUPO",
+    "BankVerificationNumber": "22000000050",
+    "KycLevel": "0",
+    "Timestamp": null,
+    "Code": null,
+    "Message": null
+}
+
+{
+    "responseCode": "00",
+    "sessionID": "999999240830081519972691363291",
+    "transactionId": "000017240830081518199453174115",
+    "channelCode": "1",
+    "destinationInstitutionCode": "000013",
+    "accountNumber": "0209090876",
+    "accountName": "FOLARIN OLUWADEMILADE OLASUPO",
+    "bankVerificationNumber": "22000000050",
+    "kycLevel": "2",
+    "timestamp": null,
+    "code": null,
+    "message": null
+}
+
+[
+    {
+        "responseCode": "00",
+        "mandateCode": "00RC575/1639/0004074900",
+        "subscriberCode": "EMS/CHAMS/0876756789",
+        "phoneNumber": "08154750808",
+        "responseDescription": "Welcome to NIBSS e-mandate authentication service, a seamless and convenient authentication experience. Kindly proceed with a token payment of N50:00 into account number \"9880218357\" with Titan-Paystack Bank. This payment will trigger the authentication of your mandate. Thank You",
+        "email": "iamdemilade.f@gmail.com",
+        "timestamp": null,
+        "error": null,
+        "status": null,
+        "errorMessageList": null,
+        "data": null
+    }
+]
+
+
+Retrieve
+[
+    {
+        "accountName": "FOLARIN OLUWADEMILADE OLASUPO",
+        "mandateCode": "00RC575/1639/0004210804",
+        "accountNumber": "0209090876",
+        "bvn": "22000000050",
+        "email": "demiladefolarin@gmail.com",
+        "narration": "Pay the bearer",
+        "payerAddress": "Wale Abodunrin, Adeoni Estate, Lagos",
+        "payer": "FOLARIN OLUWADEMILADE OLASUPO",
+        "phoneNumber": "09039984143",
+        "amount": "100.00",
+        "subscriberCode": "EMS/CHAMS/6717bde46a",
+        "frequency": "0",
+        "kyc": "2",
+        "bankCode": "058",
+        "bank": "GUARANTY TRUST BANK PLC",
+        "status": "1",
+        "xendDate": null,
+        "startDate": "20240906",
+        "productId": "1639",
+        "biller": "WEMA BANK PLC",
+        "billerBankCode": "035",
+        "billerBankName": "Wema Bank",
+        "workFlowStatusDescription": "Biller Initiated",
+        "responseCode": "00"
+    }
+]
+
+
+
+
+
+{
+    "timestamp": "2024-08-31 18:53:54",
+    "code": "A6",
+    "message": "Mandate Status Not Bank Approved"
+}
