@@ -1,4 +1,6 @@
 const express = require("express");
+const fs = require("fs");
+const path = require("path");
 
 const app = express();
 const port = 4007;
@@ -6,12 +8,28 @@ const port = 4007;
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
+const logToFile = (logData) => {
+    const logFilePath = path.join(__dirname, "webhook_logs.txt");
+    const timestamp = new Date().toISOString();
+    const logEntry = `${timestamp} - ${JSON.stringify(logData)}\n`;
+
+    //Append the log entry to the file
+    fs.appendFile(logFilePath, logEntry, (err) => {
+        if (err) {
+            console.error("Failed to write to log File:", err);
+        }
+    });
+}
+
 // Handle POST requests to /webhook
 app.post("/webhook", (req, res) => {
     const response = req.body;
 
     console.log("Body", response)
-    
+
+    //Log Response body
+    logToFile(response)
+
     if (!response) {
         return res.status(400).json({
             status: "error",
