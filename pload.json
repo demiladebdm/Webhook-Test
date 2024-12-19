@@ -1,0 +1,25 @@
+{
+  "amount": 10,
+  "currency": "NGN",
+  "merchantRef": "443b0c21-15f5-4873-9630-37d514b01473",
+  "narration": "Test Payment",
+  "callBackUrl": "https://merchant.pelpay.africa",
+  "splitCode": "",
+  "shouldTokenizeCard": false,
+  "customer": {
+    "customerId": "b6c920dd-e414-47ac-9557-691e4cd1778b",
+    "customerLastName": "Account",
+    "customerFirstName": "Test",
+    "customerEmail": "itsupport@chamsswitch.com",
+    "customerPhoneNumber": "07039544295",
+    "customerAddress": "8 Louis Solomon Close, Victoria Island, Lagos",
+    "customerCity": "Lagos",
+    "customerStateCode": "LA",
+    "customerPostalCode": "100101",
+    "customerCountryCode": "NGA"
+  },
+  "integrationKey": "9e7f1e38-f320-45c6-a069-92a951bd62e4",
+  "notificationUrl": "https://webhook-test-sigma.vercel.app/webhook",
+  "mcc": 6012,
+  "merchantDescriptor": ""
+}

@@ -1,0 +1,31 @@
+{
+  "fee": "5000",
+  "status": "SUCCESS",
+  "reason": null,
+  "transactionReferenceId": "2218338135",
+  "customerAccountNumber": "5558094786",
+  "accountName": "Naira.com Ltd",
+  "amount": 10,
+  "srcAcct": "0209090876",
+  "srcAcctBankCode": "000013",
+  "srcAcctName": "FOLARIN  OLUWADEMILADE OLASUPO",
+  "sessionId": "000013241127122523000176414737",
+  "checkSum": "FE3EA9E02EB9E36E56C070D68E57A92A5A1DC583B08BFF350FD54DBBBEEE3EF9D5A446E3125C09DD696D71542AC015D4195A07C92371003F105E9CFC5CD548DF",
+  "checkSumId": "210345"
+}
+
+{
+  "fee": "5000",
+  "status": "FAILED",
+  "reason": "invalid amount paid (UNDERPAYMENT)",
+  "transactionReferenceId": "5558-211179",
+  "customerAccountNumber": "5558095082",
+  "accountName": "Naira.com Ltd",
+  "amount": 5,
+  "srcAcct": "0209090876",
+  "srcAcctBankCode": "000013",
+  "srcAcctName": "FOLARIN  OLUWADEMILADE OLASUPO",
+  "sessionId": "000013241128094313000178166491",
+  "checkSum": "FE3EA8E22DB5E76B56C07DDE875BAD25501BC583B08AFD3409D04DB8B4E936FFD4A047E0125C08DB666A73532ACE17861531A0B854112C30A67D016426D8D2",
+  "checkSumId": "211179"
+}
