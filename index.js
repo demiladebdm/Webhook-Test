@@ -37,19 +37,19 @@ app.post("/webhook", (req, res) => {
         });
     }
 
-    if (response.Message === "Successful") {
+    if (response.message === "Successful") {
         res.status(201).json({
             status: "success",
             message: "Webhook Notification Successful",
             data: response
         });
-    } else if (response.Message === "Failed") {
+    } else if (response.message === "Failed") {
         res.status(500).json({
             status: "error",
             message: "Transaction failed",
             data: response
         });
-    } else if (response.Message === "Pending") {
+    } else if (response.message === "Pending") {
         res.status(202).json({
             status: "pending",
             message: "Transaction is pending",
