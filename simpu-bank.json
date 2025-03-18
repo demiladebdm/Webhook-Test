@@ -1,0 +1,21 @@
+{
+  "responseCode": "201",
+  "responseMessage": "Payment Order Created Successfully!",
+  "data": {
+    "accountName": "Simpustack Simpustack Chams Switch",
+    "accountNumber": "9254352835",
+    "bankCode": "000017",
+    "bankName": "WEMA BANK",
+    "accountReference": "PYDN-202412201326582771686423472",
+    "createdAt": "2024-12-20 14:26:58",
+    "currency": "NGN",
+    "customerName": "Simpustack Chams Switch",
+    "paymentReference": "1390e704ed7d477fa06df962fe7afb28",
+    "amount": 101.2,
+    "paymentStatus": "PENDING",
+    "acceptExactPayment": true,
+    "period": "MINUTE",
+    "duration": 1440
+  },
+  "success": true
+}

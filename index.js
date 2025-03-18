@@ -25,7 +25,8 @@ const logToFile = (logData) => {
 app.post("/webhook", (req, res) => {
     const response = req.body;
 
-    console.log("Body", response)
+    console.log("Received Webhook Headers:", req.headers);
+    console.log("Received Webhook Body:", req.body);
 
     //Log Response body
     logToFile(response)
@@ -55,7 +56,13 @@ app.post("/webhook", (req, res) => {
             message: "Transaction is pending",
             data: response
         });
-    } else {
+    } else if (response.Payload != null) {
+        res.status(201).json({
+            status: "success",
+            message: "Webhook Notification Successful",
+            data: response
+        });
+    }else {
         res.status(404).json({
             status: "error",
             message: "Transaction status not recognized"
@@ -74,3 +81,5 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
     console.log(`Server is running at http://localhost:${port}`)
 })
+
+// "https://webhook-test-sigma.vercel.app/webhook"
